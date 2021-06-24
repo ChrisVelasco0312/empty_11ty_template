@@ -1,12 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Eleventy Images</title>
+        <meta http-equiv="refresh" content="0; URL='/en'"/>
+        <style>
+            a,
+            body {
+                color: transparent;
+                animation: 0.25s ease-in 3s forwards show;
+            }
+
+            a {
+                --color: blue;
+            }
+
+            @keyframes show {
+                0% {
+                    color: transparent;
+                }
+
+                100% {
+                    color: var(--color, black);
+                }
+            }
+        </style>
     </head>
+
     <body>
-        <h1>START HERE</h1>
+        <h1>Redirecting to
+            <a href="/en">Home Page</a>
+        </h1>
     </body>
 </html>

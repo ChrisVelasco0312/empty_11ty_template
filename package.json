@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "eleventy --serve --input=src --output=dist",
-    "build" : "elventy --input=src --output=dist"
+    "build": "elventy --input=src --output=dist"
   },
   "keywords": [],
   "author": "",
